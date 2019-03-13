@@ -6,7 +6,7 @@ base
 ================================================*/
 /*================================================
  * reset */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
 */
@@ -195,7 +195,7 @@ plugin
   -webkit-box-sizing: content-box;
 }
 
-/* 
+/*
     User Style:
     Change the following styles to modify the appearance of Colorbox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
@@ -2203,7 +2203,7 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .circle-list > li {
-  max-width: 22.3%;
+  max-width: 29%;
   float: left;
   position: relative;
   padding-bottom: 40px;
@@ -2224,6 +2224,9 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 @media only screen and (min-width: 769px) {
   .circle-list > li:not(:nth-child(4n)) {
     margin-right: 3.6%;
+
+    margin-right: 1.6%;
+    margin-left: 2.4%;
   }
 }
 
@@ -4714,4 +4717,21 @@ ul.sectioning-list > li {
 
 .article-body .video-youtube:not(:last-child) {
   margin-bottom: 40px;
+}
+
+.about-img {
+  text-align: center;
+}
+
+.about-text{
+  margin-left: 10%;
+  width: 40%;
+  float: left;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+}
+
+.about-fb{
+  margin-left: 8%;
+  float: left;
 }
