@@ -3781,7 +3781,7 @@ span.list-item {
 /*================================================
 * report */
 .report-img {
-  display: table;
+  /*display: table;*/
   width: 100%;
   max-width: 750px;
   margin-bottom: 35px;
@@ -3796,7 +3796,7 @@ span.list-item {
 }
 
 .report-img li {
-  display: table-cell;
+  /*display: table-cell;*/
 }
 
 @media only screen and (max-width: 767px) {
@@ -4734,4 +4734,20 @@ ul.sectioning-list > li {
 .about-fb{
   margin-left: 8%;
   float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-text{
+    margin-left: 10%;
+    width: 80%;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+    float: none;
+  }
+
+  .about-fb{
+    margin-left: 10%;
+    width: 80%;
+    float: none;
+  }
 }

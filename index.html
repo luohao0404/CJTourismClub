@@ -54,7 +54,7 @@
       <div class="header-body header-body-no-border">
         <div class="inner clr">
           <div class="header-sp-top">
-            <h1 class="logo"><a href="/"><img width="40%" src="./assets/img/common/logo.png" alt="日中ツーリズム企業家倶楽部"></a></h1>
+            <h1 class="logo"><a href="#"><img src="./assets/img/common/logo.png" alt="日中ツーリズム企業家倶楽部"></a></h1>
             <a class="menu-btn" href="">
               <span class="menu-btn-icon">
                 <span></span>
@@ -114,7 +114,7 @@
 <div class="container">
   <section class="front-news-wrap">
     <div class="inner">
-      <h2 class="heading-balloon">お知らせ</h2>
+      <h2 class="heading-balloon">最新レポート</h2>
       <dl class="front-news">
         <dt><time datetime="2019-01-17">2019.01.17</time></dt>
         <dd><a href="./report/report05.html">「日中経済ビジネスクラブ会議」に報告発表</a></dd>
@@ -180,7 +180,7 @@
             <dt>お問い合わせ種別</dt>
             <dd>
               <div class="select-wrap">
-                <select name="お問い合わせ種別" class="validate[required] type-select">
+                <select name="type" class="validate[required] type-select">
                   <option value="">選択する</option>
                   <option value="入会に関するお問い合わせ">入会に関するお問い合わせ</option>
                   <option value="イベントに関する問い合わせ">イベントに関する問い合わせ</option>
@@ -192,31 +192,31 @@
           </dl>
           <dl>
             <dt>氏名・漢字</dt>
-            <dd><input type="text" name="氏名漢字" placeholder="例）日中太郎" class="validate[required]"></dd>
+            <dd><input type="text" name="name_k" placeholder="例）日中太郎" class="validate[required]"></dd>
           </dl>
           <dl>
             <dt>氏名・ひらがな</dt>
-            <dd><input type="text" name="氏名ひらがな" placeholder="例）にっちゅうたろう" class="validate[required]"></dd>
+            <dd><input type="text" name="name_h" placeholder="例）にっちゅうたろう" class="validate[required]"></dd>
           </dl>
           <dl>
             <dt>会社名・団体名</dt>
-            <dd><input type="text" name="会社名・団体名" placeholder="例）〇〇株式会社" class="validate[required]"></dd>
+            <dd><input type="text" name="company" placeholder="例）〇〇株式会社" class="validate[required]"></dd>
           </dl>
           <dl>
             <dt>ご所属部署</dt>
-            <dd><input type="text" name="ご所属部署" placeholder="例）〇〇事業部" class="validate[required]"></dd>
+            <dd><input type="text" name="department" placeholder="例）〇〇事業部" class="validate[required]"></dd>
           </dl>
           <dl>
             <dt>住所</dt>
-            <dd><input type="text" name="住所" placeholder="例）東京都〇〇谷１丁目１－１、〇〇ビル１F" class="validate[required]"></dd>
+            <dd><input type="text" name="address" placeholder="例）東京都〇〇１丁目１－１、〇〇ビル１F" class="validate[required]"></dd>
           </dl>
           <dl>
             <dt>電話番号</dt>
-            <dd><input type="tel" name="電話番号" placeholder="例）0312345678" class="validate[required,custom[phone]]"></dd>
+            <dd><input type="tel" name="tel" placeholder="例）0312345678" class="validate[required,custom[phone]]"></dd>
           </dl>
           <dl>
             <dt>メールアドレス</dt>
-            <dd><input type="email" name="メールアドレス" placeholder="例）xxxxx@gmail.com" class="validate[required,custom[email]]" id="email"></dd>
+            <dd><input type="email" name="email" placeholder="例）xxxxx@gmail.com" class="validate[required,custom[email]]" id="email"></dd>
           </dl>
           <dl>
             <dt>メールアドレス確認</dt>
@@ -224,7 +224,7 @@
           </dl>
           <dl>
             <dt>お問い合わせ内容（自由記入欄）</dt>
-            <dd><textarea name="お問い合わせ内容（自由記入欄）" placeholder="例）参加に強い興味を抱いています。" class="validate[required]"></textarea></dd>
+            <dd><textarea name="info" placeholder="例）参加に強い興味を抱いています。" class="validate[required]"></textarea></dd>
           </dl>
           <dl class="confirm">
             <dt>内容確認</dt>
