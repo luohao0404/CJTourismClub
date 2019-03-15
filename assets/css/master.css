@@ -658,7 +658,7 @@ body.rtl .formError .formErrorArrow {
   display: block;
   width: 91px;
   height: 69px;
-  background: url(../img/common/bg_map.png) 0 0 no-repeat;
+  /*background: url(../img/common/bg_map.png) 0 0 no-repeat;*/
   background-size: contain;
   position: absolute;
   left: 188px;
@@ -2559,12 +2559,12 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .front-mv-item-01 {
-  background-image: url(../img/index/mv_01.jpg);
+  background-image: url(../img/index/i-01.png);
 }
 
 @media only screen and (max-width: 768px) {
   .front-mv-item-01 {
-    background-image: url(../img/index/mv_01_sp.jpg);
+    background-image: url(../img/index/i-01.png);
   }
 }
 
@@ -2576,12 +2576,12 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .front-mv-item-02 {
-  background-image: url(../img/index/mv_02.jpg);
+  background-image: url(../img/index/i-01.png);
 }
 
 @media only screen and (max-width: 768px) {
   .front-mv-item-02 {
-    background-image: url(../img/index/mv_02_sp.jpg);
+    background-image: url(../img/index/i-01.png);
   }
 }
 
@@ -2593,12 +2593,12 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .front-mv-item-03 {
-  background-image: url(../img/index/mv_03.jpg);
+  background-image: url(../img/index/i-01.png);
 }
 
 @media only screen and (max-width: 768px) {
   .front-mv-item-03 {
-    background-image: url(../img/index/mv_03_sp.jpg);
+    background-image: url(../img/index/i-01.png);
   }
 }
 
@@ -3177,7 +3177,8 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .board-member > li {
-  width: 226px;
+  /*width: 226px;*/
+  width: 300px;
   text-align: center;
   line-height: 1.6;
   font-size: 1.2rem;
