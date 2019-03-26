@@ -1935,7 +1935,8 @@ body.rtl .formError .formErrorArrow {
 }
 
 .variable-list li {
-  width: 154px;
+  /* width: 154px; */
+  width: 244px;
   height: 123px;
   display: inline-block;
   vertical-align: top;
@@ -2543,6 +2544,8 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* luohao */
+  height: 280px;
 }
 
 @media only screen and (min-width: 1831px) {
@@ -2555,16 +2558,18 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 @media only screen and (max-width: 768px) {
   .front-mv-item {
     padding-top: 14%;
+    /* luohao */
+    height: auto;
   }
 }
 
 .front-mv-item-01 {
-  background-image: url(../img/index/i-01.png);
+  background-image: url(../img/index/i-01.jpg);
 }
 
 @media only screen and (max-width: 768px) {
   .front-mv-item-01 {
-    background-image: url(../img/index/i-01.png);
+    background-image: url(../img/index/i-01.jpg);
   }
 }
 
@@ -2576,12 +2581,12 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .front-mv-item-02 {
-  background-image: url(../img/index/i-01.png);
+  background-image: url(../img/index/i-01.jpg);
 }
 
 @media only screen and (max-width: 768px) {
   .front-mv-item-02 {
-    background-image: url(../img/index/i-01.png);
+    background-image: url(../img/index/i-01.jpg);
   }
 }
 
@@ -2593,12 +2598,12 @@ a.variable-list-img:hover .variable-list-img-inner:before, a.variable-list-img:h
 }
 
 .front-mv-item-03 {
-  background-image: url(../img/index/i-01.png);
+  background-image: url(../img/index/i-01.jpg);
 }
 
 @media only screen and (max-width: 768px) {
   .front-mv-item-03 {
-    background-image: url(../img/index/i-01.png);
+    background-image: url(../img/index/i-01.jpg);
   }
 }
 
