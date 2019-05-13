@@ -61,7 +61,7 @@
       <div class="header-body">
         <div class="inner clr">
           <div class="header-sp-top">
-            <h1 class="logo"><a href="/"><img src="/assets/img/common/logo.png" alt="熱意ある地方創生ベンチャー連合"></a></h1>
+            <h1 class="logo"><a href="/"><img src="/assets/img/common/CJTC5-100.jpg" alt="熱意ある地方創生ベンチャー連合"></a></h1>
             <a class="menu-btn" href="">
               <span class="menu-btn-icon">
                 <span></span>
